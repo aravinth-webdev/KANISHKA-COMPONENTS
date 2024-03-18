@@ -157,18 +157,18 @@ function Main(){
        <label className="software">OUR EXPERTICE</label>
        <br></br>
        <div className="images">
-       <img src="./expertice1.jpg" width={"220"} height={"220"} alt="htmlskill"></img>
+       <img src="./expertice1.jpg" width={"200"} height={"220"} alt="htmlskill"></img>
        <label className="skill-name">AUTOMOBILE PARTS</label>
        <p>Automobile parts can also be upgraded to improve the performance of an automobile. For example, you can upgrade the engine, transmission, or brakes to make your automobile faster, more fuel-efficient, or safer. Automobile parts can also be customized .</p>
        <br></br>
        <div className="images">
-       <img src="./expertice2.jpg" width={"220"} height={"220"} alt="cssSkill"></img>
+       <img src="./expertice2.jpg" width={"200"} height={"220"} alt="cssSkill"></img>
        <label className="skill-name">TOOLING SYSTEM</label>
        <p>No matter what industry you are in, tooling systems can help you improve your manufacturing operations. If you are looking for ways to improve the quality, cost-effectiveness, and flexibility of your production, you should consider investing in tooling systems.</p>
        </div>
        <br></br>
        <div className="images">
-       <img src="./expertice3.jpg" width={"220"} height={"220"} alt="cssSkill"></img>
+       <img src="./expertice3.jpg" width={"200"} height={"220"} alt="cssSkill"></img>
        <label className="skill-name">ELECTRICAL & ELECTRONICS</label>
        <p>Electrical and electronic parts are essential for the modern world. They allow products to function properly, to be more efficient, and to be more user-friendly. As new technologies are developed, electrical and electronic parts will continue to evolve.</p>
        </div>
@@ -227,7 +227,7 @@ function Contact(){
         <br></br>
        </div>
        <div id="media">
-       <a href="#"><i class="fa-brands fa-youtube"></i> YOUTUBE</a>
+       <a href="https://www.youtube.com/watch?v=3gUNGKc2vPY&t=55s"><i class="fa-brands fa-youtube"></i> YOUTUBE</a>
        <br></br>
        <a href="#"><i class="fa-brands fa-facebook" id="facebook" ></i>FACEBOOK</a>
        <br></br>

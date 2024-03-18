@@ -3,11 +3,13 @@
   margin: auto;
   flex-wrap: wrap;
   scroll-behavior: smooth;
+  max-width: 100%;
 }
 header{
    /* background-color:white; */
   height: fit-content;
-  padding: 10px 10px;
+  padding: 10px 0px 0px 0px;
+  max-width: 100%;
   display: flex;
   font-family:monospace;
   background-color: azure;
@@ -25,7 +27,7 @@ header>nav>ul>li{
    margin: 20px 10px 7px 10px;
 }
 header>nav>ul>li>i{
-   padding:10px 50px;
+   padding:10px 20px;
    /* font-size: 15px; */
    color: skyblue;
    animation-name: navanime;
@@ -250,7 +252,7 @@ padding: 20px 0px 20px 0px;
   margin: 0px 0px 10px 0px;
   }
 #skill{
-  width: fit-content;
+  /* width: fit-content; */
   background-size:cover;
   background-color:deepskyblue;
 }
@@ -283,17 +285,17 @@ font-family: 'Courier New', Courier, monospace;
   display: flex;
   background-color:aliceblue;
   gap: 5px;
-   border: 1px solid grey;
+   /* border: 1px solid grey; */
   flex-wrap: wrap;
-  margin: 30px 0px 0px 10px;
+  margin: 10px 0px 0px 5px;
   /* padding: 30px 30px; */
 }
 
 .images>img{
-  border: 2px solid grey;
+  /* border: 2px solid grey; */
   opacity: 100%;
   width: fit-content;
-  margin: 20px 10px 0px 10px;
+  margin: 10px 10px 0px 0px;
 }
 .images>img:hover{
   /* transform: scale(0.9); */
@@ -306,6 +308,7 @@ font-family: 'Courier New', Courier, monospace;
   display: flex;
   /* background-color: darkslategrey; */
   font-size:17px;
+  margin: 10px 0px 0px 0px;
   padding:10px 20px;
 
 }
@@ -315,6 +318,7 @@ font-family: 'Courier New', Courier, monospace;
 .skill-name{
   border: none;
   display: flex;
+  margin-top: 40px;
   padding: 6px 8px;
   letter-spacing: 2px;
   color:white;
