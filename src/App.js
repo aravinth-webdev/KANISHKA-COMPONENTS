@@ -88,10 +88,11 @@ function Main(){
         helloclr(hello==false?true:false)
        }} >APPOINTMENT HERE<i class="fa-solid fa-arrow-down-long"></i></button>
        
-       <p id="register5">{hello && <form id="loginform" onChange={
+       <p id="register5">{hello && <form id="loginform" onSubmit={
         (event)=>{
-         event.preventDefault()
-      
+         event.preventDefault();
+         prompt("make sure the appointment");
+         alert("'request recevied',we will call you");
         }
 
        } >
@@ -108,12 +109,7 @@ function Main(){
          <label id="phno" >contact number :</label>
          <input type="number" name="phno" placeholder="enter contact number" required></input>        
          <br></br>
-         <button type="submit" onClick={()=>{
-              
-            alert("Make sure the appointment")
-            alert("'Request Received',we will call you")
-             
-         }} >SUBMIT</button>
+         <button type="submit">SUBMIT</button>
          </div>
          
          </form>}</p>

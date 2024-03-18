@@ -179,11 +179,13 @@ height:fit-content;
 
 #login{
    margin:10px 0px 0px 10px;
-   padding: 5px 0px;
+   padding: 5px 10px;
    background-color: rgba(240, 248, 255, 0.705);
 }
 #login>h4{
   color:crimson;
+  letter-spacing: 1.6px;
+  font-size: 19px;
   font-family: 'Courier New', Courier, monospace;
   padding: 5px 5px;
   margin:0px 0px 20px 20px;
@@ -192,14 +194,18 @@ height:fit-content;
 #login>label{
 padding: 20px 40px;
 color:black;
+letter-spacing: 1.2px;
+font-size: 17px;
 margin: 10px 0px;
 }
 #login>input{
 padding: 10px 20px;
-/* border: none; */
+border: none;
+border: 0.5px solid grey;
 /* background-color: rgba(0, 0, 0, 0.61); */
 /* color: aliceblue; */
 margin: 10px 0px;
+border-radius: 2px;
 }
 #login>input:focus{
   background-color: black;
